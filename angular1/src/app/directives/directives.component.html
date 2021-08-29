@@ -1,0 +1,11 @@
+<div>
+    <ng-template #thenBlock>
+        <h3>hello</h3>
+    </ng-template>
+    <ng-template #else>
+        <h3>world</h3>
+    </ng-template>
+</div>
+<div>
+    *ngIf="displayName":then thenBlock;else elseblock">
+</div>

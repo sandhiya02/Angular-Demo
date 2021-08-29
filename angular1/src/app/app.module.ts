@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { InterpolationComponent } from './interpolation/interpolation.component';
 import { PropertyComponent } from './property/property.component';
 import { EventComponent } from './event/event.component';
-import { TwowayComponent } from './twoway/twoway.component';
-import { FormsModule } from '@angular/forms';
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +14,8 @@ import { FormsModule } from '@angular/forms';
     InterpolationComponent,
     PropertyComponent,
     EventComponent,
-    TwowayComponent,
-    FormsModule
+    DirectivesComponent,
+    
   ],
   imports: [
     BrowserModule,
