@@ -9,6 +9,8 @@ export class DirectivesComponent implements OnInit {
 
   displayName=true;
 
+  names=["tom","sandy","jack","maha"]
+
   constructor() { }
 
   ngOnInit(): void {
