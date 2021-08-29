@@ -16,7 +16,7 @@ export class ZomatoComponent implements OnInit
 fruits()
   {
     let my =this.food .orderFruits();
-    console.log(my);
+    console.log(my)
   }
   drinks()
   {
@@ -31,6 +31,6 @@ fruits()
 
 
   
-  }
+  
 
-}
+
