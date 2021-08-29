@@ -12,3 +12,9 @@
 <div *ngFor="let name of names">
     <h4>{{name}}</h4>
 </div>
+<div [ngSwitch]="color">
+    <div *ngSwitchCase="'red'"><h1>Red</h1></div> 
+    <div *ngSwitchCase="'blue'"><h1>Blue</h1></div>
+</div>
+
+
