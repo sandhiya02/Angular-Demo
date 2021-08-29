@@ -7,6 +7,7 @@ import { InterpolationComponent } from './interpolation/interpolation.component'
 import { PropertyComponent } from './property/property.component';
 import { EventComponent } from './event/event.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { ZomatoComponent } from './zomato/zomato.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { DirectivesComponent } from './directives/directives.component';
     PropertyComponent,
     EventComponent,
     DirectivesComponent,
+    ZomatoComponent,
     
   ],
   imports: [
