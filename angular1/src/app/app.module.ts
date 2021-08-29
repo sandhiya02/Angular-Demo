@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { InterpolationComponent } from './interpolation/interpolation.component';
 import { PropertyComponent } from './property/property.component';
 import { EventComponent } from './event/event.component';
+import { TwowayComponent } from './twoway/twoway.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InterpolationComponent,
     PropertyComponent,
-    EventComponent
+    EventComponent,
+    TwowayComponent
   ],
   imports: [
     BrowserModule,
