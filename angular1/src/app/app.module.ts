@@ -9,6 +9,7 @@ import { EventComponent } from './event/event.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { ZomatoComponent } from './zomato/zomato.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { PipesComponent } from './pipes/pipes.component';
     DirectivesComponent,
     ZomatoComponent,
     PipesComponent,
+    ReactiveFormsModule
     
   ],
   imports: [

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-property',
@@ -7,11 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertyComponent implements OnInit {
 
+  repDetail: FormGroup | undefined;
+
   Isshow=true;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.repDetail=new FormGroup({
+      name: new FormControl(),
+      password: new FormControl(),
+    });
+  }
+  save() {
+    
   }
 
 }
