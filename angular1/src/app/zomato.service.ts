@@ -5,8 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class ZomatoService {
 
-  drinks:any;
-  fruits:any;
+  drinks:any="mazaa";
+  fruits:any="apple";
 
   orderDrinks() {
     return this.drinks;
