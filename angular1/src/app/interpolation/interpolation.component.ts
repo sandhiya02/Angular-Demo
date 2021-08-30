@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InterpolationComponent implements OnInit {
 
-  name="sandy";
+  name="rachu";
 
   constructor() { }
 
