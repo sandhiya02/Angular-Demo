@@ -10,7 +10,7 @@ export class PropertyComponent implements OnInit {
 
   repDetail: FormGroup | undefined;
 
-  Isshow=true;
+  Isshow=false;
 
   constructor() { }
 
